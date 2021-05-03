@@ -32,6 +32,8 @@ public class MainApplication {
             pick.clear();
         }
         System.out.println("1억번의 시도 중, 성공 : "+success+" 실패 : "+failure);
+        double lottoPer = (double) success/100000000;
+        System.out.println(lottoPer+"이 로또의 통계적 확률입니다.");
     }
 }
 
